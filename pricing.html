@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Picpan.io | Feature</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header
+      class="relative max-[750px]:fixed w-full z-[999999] bg-transparent top-0 max-[750px]:bg-white shadow-none max-[750px]:shadow-sm pb-[1.5rem]"
+    >
+      <nav class="container flex items-center justify-between pt-[1.5rem]">
+        <a
+          href="index.html"
+          class="nav-logo text-primary text-[32px] font-mavenpro font-bold"
+        >
+          picpan.io
+        </a>
+
+        <ul
+          class="flex flex-row max-[750px]:flex-col w-max max-[750px]:w-full h-[100%] top-auto max-[750px]:top-0 left-0 pt-0 max-[750px]:pt-[5rem] items-center relative max-[750px]:fixed gap-[36px] text-[1rem] text-secondary navbar bg-transparent max-[750px]:bg-white font-mavenpro z-[9999]"
+        >
+          <li
+            class="hidden max-[750px]:block button-nav-mobile-close text-[2rem] cursor-pointer"
+          >
+            <iconify-icon
+              icon="mdi:close-circle"
+              class="text-primary"
+            ></iconify-icon>
+          </li>
+          <li class="transition-all hover:text-primary">
+            <a href="feature.html"> Feature</a>
+          </li>
+          <li class="transition-all hover:text-primary text-primary">
+            <a href="pricing.html">Pricing</a>
+          </li>
+          <li class="transition-all hover:text-primary">
+            <a href="documentation.html">Documentation</a>
+          </li>
+          <li class="transition-all hover:text-primary">
+            <a href="FAQ.html">FAQ</a>
+          </li>
+          <li>
+            <a
+              href="https://space.picpan.io/login"
+              class="w-[120px] h-[36px] text-[18px] bg-primary flex items-center justify-center rounded-xl text-white font-mavenpro cursor-pointer"
+              >Login</a
+            >
+          </li>
+        </ul>
+
+        <div
+          class="button-nav-mobile-open hidden max-[750px]:block text-[2rem] cursor-pointer"
+        >
+          <iconify-icon
+            icon="ph:list-bold"
+            class="cursor-pointer text-primary"
+          ></iconify-icon>
+        </div>
+      </nav>
+    </header>
+
+    <main class="pt-0 max-[750px]:pt-[3.5rem]">
+      <section>
+        <div class="container mt-[79px]">
+          <div class="text-center">
+            <h2
+              class="text-[24px] text-primary font-mavenpro font-bold mb-[28px]"
+            >
+              Pricing
+            </h2>
+            <p class="text-[16px]">
+              Save your inftrastructure cost upto 70% by using Picpan
+            </p>
+          </div>
+
+          <div class="flex gap-7 flex-wrap justify-center mt-[3rem]">
+            <div
+              class="bg-fourty w-max px-[4rem] flex flex-col justify-between py-[2em] rounded-xl h-[425px]"
+            >
+              <div class="">
+                <h2 class="mb-[1rem] font-bold text-[24px]">Free</h2>
+
+                <ul class="text-[14px] flex flex-col gap-2">
+                  <li>Upload jpg & png</li>
+                  <li>Maximum file size 10MB</li>
+                  <li>1 Gb Space</li>
+                  <li>Basic Image processing</li>
+                </ul>
+              </div>
+
+              <a
+                class="mx-auto block w-[210px] h-[42px] font-mavenpro font-bold text-[15px] text-center bg-secondary text-white rounded-lg"
+                href="https://space.picpan.io/signup"
+              >
+                <p class="flex items-center justify-center h-full">
+                  Sign Up Free
+                </p></a
+              >
+            </div>
+
+            <div
+              class="bg-primary w-max px-[4rem] flex flex-col justify-between py-[2em] text-white rounded-xl h-[425px]"
+            >
+              <div class="">
+                <h2 class="mb-[1rem] font-bold text-[24px]">Premium</h2>
+
+                <ul class="text-[14px] flex flex-col gap-2">
+                  <li>Upload jpg, png & gif</li>
+                  <li>Maximum file size 20MB</li>
+                  <li><span class="font-bold">100 GB</span> Space</li>
+                  <li>Advance Image processing</li>
+                  <li>REST API</li>
+                </ul>
+              </div>
+
+              <div>
+                <a
+                  class="mx-auto block w-[210px] h-[42px] font-mavenpro font-bold text-[15px] text-center bg-third text-white rounded-lg mb-[12px]"
+                  href="https://space.picpan.io/signup"
+                >
+                  <p class="flex items-center justify-center h-full">
+                    Just $9 /mo
+                  </p></a
+                >
+                <div>
+                  <p class="text-center text-[#E9EB83]">Billed annually</p>
+                  <p>
+                    or <span class="font-bold">$12</span> with billed monthly
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-secondary w-max px-[4rem] flex flex-col justify-between py-[2em] rounded-xl h-[425px] text-white"
+            >
+              <div class="">
+                <h2 class="mb-[1rem] font-bold text-[24px]">Enterprise</h2>
+
+                <ul class="text-[14px] flex flex-col gap-2">
+                  <li>Upload jpg, png & gif</li>
+                  <li>Maximum file size 30Mb</li>
+                  <li><span class="font-bold">1 Gb </span> Space</li>
+                  <li>Advance Image processing</li>
+                  <li>REST API</li>
+                  <li class="font-bold">Custom Image URL</li>
+                </ul>
+              </div>
+
+              <div>
+                <a
+                  class="mx-auto block w-[210px] h-[42px] font-mavenpro font-bold text-[15px] text-center bg-primary text-white rounded-lg mb-[12px]"
+                  href="https://space.picpan.io/signup"
+                >
+                  <p class="flex items-center justify-center h-full">
+                    Just $35 /mo
+                  </p></a
+                >
+                <div>
+                  <p class="text-center text-[#E9EB83]">Billed annually</p>
+                  <p>
+                    or <span class="font-bold">$39</span> with billed monthly
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-max mx-auto mt-[36px]">
+            <p>See more details pricing plan comparison</p>
+            <img
+              src="./images/arrow.png"
+              alt="arrow"
+              class="mx-auto mt-[20px] w-[24px]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="container mt-[63px] lg:overflow-x-auto overflow-x-scroll pr-4"
+        >
+          <table class="block mx-auto w-[1090px]">
+            <thead class="block rounded-[4px] bg-[#D9D9D9]">
+              <tr class="pl-2 font-mavenpro">
+                <th
+                  class="text-left pl-6 w-[290px] rounded-tr-[4px] rounded-tl-[4px] h-[36px] text-white bg-primary"
+                >
+                  Features
+                </th>
+                <th class="font-normal w-[290px]">Free</th>
+                <th class="text-primary w-[290px]">Premium</th>
+                <th class="w-[290px]">Enterprise</th>
+              </tr>
+            </thead>
+            <tbody class="block">
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[317px] border-r border-l py-5"
+                >
+                  Upload format
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  JPG & PNG
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  JPG, PNG & GIF
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  JPG, PNG & GIF
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[290px] border-r border-l py-5"
+                >
+                  Maximum file size
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">10 MB</td>
+                <td class="bg-white text-center border-b w-[290px]">20 MB</td>
+                <td class="bg-white text-center border-b w-[290px]">30 MB</td>
+              </tr>
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[290px] border-r border-l py-5"
+                >
+                  Disk Space Storage
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">1 GB</td>
+                <td class="bg-white text-center border-b w-[290px]">100 GB</td>
+                <td class="bg-white text-center border-b w-[290px]">1 TB</td>
+              </tr>
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[290px] border-r border-l py-5"
+                >
+                  Image Processing
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  <p>Resize & Crop</p>
+                </td>
+                <td
+                  class="bg-white text-center border-b w-[290px] pb-[2rem] pt-[1rem]"
+                >
+                  <p class="w-[202px] mx-auto">
+                    Resize, Crop, Rotate, Flip Quality, Darken, Blur, Grayscale,
+                    Flatten, Tint
+                  </p>
+                </td>
+                <td
+                  class="bg-white text-center border-b w-[290px] pb-[2rem] pt-[1rem]"
+                >
+                  <p class="w-[202px] mx-auto">
+                    Resize, Crop, Rotate, Flip Quality, Darken, Blur, Grayscale,
+                    Flatten, Tint
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[290px] border-r border-l"
+                >
+                  REST API
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  <img
+                    src="./images/close.png"
+                    alt=""
+                    class="w-[24px] mx-auto"
+                  />
+                </td>
+                <td class="bg-white text-center border-b w-[290px] py-5">
+                  <img
+                    src="./images/correct.png"
+                    alt=""
+                    class="w-[24px] mx-auto"
+                  />
+                </td>
+                <td class="bg-white text-center border-b w-[290px] py-5">
+                  <img
+                    src="./images/correct.png"
+                    alt=""
+                    class="w-[24px] mx-auto"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[290px] border-r border-l"
+                >
+                  Custom image URL
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  <img
+                    src="./images/close.png"
+                    alt=""
+                    class="w-[24px] mx-auto"
+                  />
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  <img
+                    src="./images/close.png"
+                    alt=""
+                    class="w-[24px] mx-auto"
+                  />
+                </td>
+                <td class="bg-white text-center border-b w-[290px] py-5">
+                  <img
+                    src="./images/correct.png"
+                    alt=""
+                    class="w-[24px] mx-auto"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td
+                  class="bg-white px-6 text-primary border-b w-[290px] border-r border-l"
+                ></td>
+                <td class="bg-white text-center border-b w-[290px] py-5">
+                  <p><span class="font-bold">Free,</span> forever</p>
+                  <a
+                    class="mx-auto block w-[210px] mt-[23px] h-[42px] font-mavenpro font-bold text-[15px] text-center bg-secondary text-white rounded-lg mb-[12px]"
+                    href="https://space.picpan.io/signup"
+                  >
+                    <p class="flex items-center justify-center h-full">
+                      Sign Up Free
+                    </p></a
+                  >
+                </td>
+                <td class="bg-white text-center border-b w-[290px]">
+                  <p class="font-bold text-primary">from $9 / mo</p>
+                  <a
+                    class="mx-auto block w-[210px] mt-[23px] h-[42px] font-mavenpro font-bold text-[15px] text-center bg-primary text-white rounded-lg mb-[12px]"
+                    href="https://space.picpan.io/signup"
+                  >
+                    <p class="flex items-center justify-center h-full">
+                      Purchase
+                    </p></a
+                  >
+                </td>
+                <td class="bg-white text-center border-b w-[290px] py-5">
+                  <p class="font-bold text-primary">from $35 / mo</p>
+                  <a
+                    class="mx-auto block w-[210px] mt-[23px] h-[42px] font-mavenpro font-bold text-[15px] text-center bg-primary text-white rounded-lg mb-[12px]"
+                    href="https://space.picpan.io/signup"
+                  >
+                    <p class="flex items-center justify-center h-full">
+                      Purchase
+                    </p></a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <p class="text-center mt-[4rem]">
+            You need more than limitation?
+            <a class="text-primary" href="contact.html">Contact Us</a> for
+            custom inquiry
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-fourty mt-[6rem]">
+      <div class="container text-center mt-[2rem] pt-[3.5rem] pb-[2.5rem]">
+        <a
+          href="index.html"
+          class="nav-logo text-primary text-[32px] font-mavenpro font-bold"
+        >
+          picpan.io
+        </a>
+        <ul
+          class="flex items-center flex-wrap justify-center font-mavenpro text-secondary text-[14px] mt-[1rem] gap-6"
+        >
+          <li class="transition-all hover:font-bold">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="transition-all hover:font-bold">
+            <a href="feature.html">Features</a>
+          </li>
+          <li class="transition-all hover:font-bold font-bold">
+            <a href="pricing.html">Pricing</a>
+          </li>
+          <li class="transition-all hover:font-bold">
+            <a href="documentation.html">Documentation</a>
+          </li>
+          <li class="transition-all hover:font-bold">
+            <a href="FAQ.html">FAQ</a>
+          </li>
+          <li class="transition-all hover:font-bold">
+            <a href="terms_of_services.html">Terms of Service</a>
+          </li>
+          <li class="transition-all hover:font-bold">
+            <a href="privacy_policy.html">Privacy Policy</a>
+          </li>
+          <li class="transition-all hover:font-bold">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <p
+        class="text-center font-mavenpro text-[12px] py-[1.5rem] h-full bg-white"
+      >
+        Copyright @2022 All Right Reserved,
+        <span class="font-bold text-primary font-mavenpro">VANLAB DIGITAL</span>
+      </p>
+    </footer>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <script>
+      const navbar = document.querySelector(".navbar");
+      const navButtonOpen = document.querySelector(".button-nav-mobile-open");
+      const navButtonClose = document.querySelector(".button-nav-mobile-close");
+
+      navButtonOpen.addEventListener("click", () => {
+        navbar.classList.add("active-navbar");
+      });
+
+      navButtonClose.addEventListener("click", () => {
+        navbar.classList.remove("active-navbar");
+      });
+    </script>
+  </body>
+</html>
